@@ -1,0 +1,28 @@
+# Локальные данные и секреты
+data/
+secretkeys.py
+.env
+.env.*
+!.env.example
+.aws/
+
+# Виртуальное окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Локальные результаты будущих этапов
+models/
+*.pkl
+mlruns/
+mlflow.db
+mlflow.db-*
+
+# Настройки редакторов и системные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
